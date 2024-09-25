@@ -9,7 +9,8 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
-      <dl className="dictionary">{emojipedia.map( emojiTerm => <Entry
+      <dl className="dictionary">{emojipedia.map( emojiTerm =>
+       <Entry
       key={emojiTerm.id}
       emoji={emojiTerm.emoji}
       name={emojiTerm.name}
