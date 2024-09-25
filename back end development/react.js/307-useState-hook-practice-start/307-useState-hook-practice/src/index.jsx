@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
+import "./../public/styles.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
 //Challenge:
 //1. Given that you can get the current time using:
-let time = new Date().toLocaleTimeString();
-console.log(time);
+//let time = new Date().toLocaleTimeString();
+
 //Show the latest time in the <h1> when the Get Time button
 //is pressed.
 
@@ -20,9 +21,3 @@ console.log(time);
 //   console.log("Hey");
 // }
 // setInterval(sayHi, 1000);
-
-// If you're running this locally in VS Code use the commands:
-// npm install
-// to install the node modules and
-// npm run dev
-// to launch your react project in your browser
